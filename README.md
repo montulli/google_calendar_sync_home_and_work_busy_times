@@ -6,6 +6,7 @@ I use this to make sure that my work calendar gets automatically blocked by even
 This script will take events from your personal calendar and create a corresponding 'busy' event on your work calendar.   By default, it will use the event title 'Booked by personal calendar event (automated)' which can be changed in the google_calendar_sync_home_and_work_busy_times.gs script.
 
 To use this script, go to script.google.com and:
+  * Log in or change accounts to your _work_ account.  (This should be run on the account you want to sync events to, not from)
   * Create a new project.  
   * Add 'google_calendar_sync_home_and_work_busy_times.gs' as a file.
   * Edit the script to include your two email addresses.
